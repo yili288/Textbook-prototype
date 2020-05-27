@@ -1,0 +1,110 @@
+body {
+	color: 000;
+	margin-left:35px;
+	margin-right:35px;
+}
+
+.top-tab{
+	float:right;
+	font-size: 10px;
+	margin-right:5% ;
+}
+
+.grid-container{
+	display: inline-grid;
+	grid-row-gap: 30px
+}
+
+.top-half{
+	display:inline;
+}
+
+.table-title-1, .table-title-2{
+	margin: 0px;
+	padding:0;
+
+}
+
+.side-square-1, .side-square-2, .header{
+	float:left;
+	margin:0;
+	display: inline;
+}
+
+.side-square-1, .side-square-2 {
+	background-color: royalblue;
+	content: ' ';
+	width: 30px;
+	height: 30px;
+}
+
+.side-square-2 {
+	background-color: green;
+}
+
+.header {
+	color: white;
+	text-decoration: bold;
+	padding-left:8px;
+
+}
+
+#important-points {       /*section 1 table*/
+	border-style: solid;
+	border-color: royalblue;
+	border-width: 2px;
+	width: 600px;
+	float:left;
+	background-color: dodgerblue;
+}
+
+#procedure{				   /*section 2 table*/
+	border-style: solid;
+	border-color: green;
+	border-width: 2px;
+	background-color: #32CD32
+}
+
+
+.list-1{
+	margin:0;
+	background-color: lightskyblue;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.header-2-contents{         /*headers for lists in section 2*/
+	margin:0;
+	background-color: palegreen;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	margin-left:14px;
+	font-size: 16px;
+}
+
+.contents-1, .contents-2{
+	font-size:15px;
+	margin:10px 0;
+}
+
+.footnote{
+	font-size: 12px;
+	margin: 14px;
+}
+
+.left-fun-facts {
+	width:340px;
+	font-size: 12px;
+	float:left;
+	margin:5px;
+}
+
+.img-rocket{
+	width:340px;
+}
+
+
+
